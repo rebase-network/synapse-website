@@ -77,7 +77,7 @@ Returns tokens information by lockHash and typeScripts.
 
 ```bash
 
-curl -X GET "http://127.0.0.1:2333/locks/0xcd64ecc1fa2570073cbe9b2dfda7974288b564f323b4cd07e9d84fef22d62661/tokens?typeHashes=0xbbb3d5666deb0b79db4e4bc3a5c5512d5cd366a7e2f922722286257dcb20dc42" -H "accept: */*"
+curl -X GET "http://127.0.0.1:2333/locks/0xfdc6bb73b0cbb033ffb122b7cd0a5bdec5de445637908239feb4f2e5168a4d09/tokens?typeHashes=0x02da7171c832fa2de849599c3ac63d95268752f1a450cee92be107d43f6342fd&typeHashes=0x12d7b9b275df85bdca034b0aba54b8c721e9f4bfcf00ca07d724191b9ea1f58a" -H "accept: */*"
 
 ```
 
