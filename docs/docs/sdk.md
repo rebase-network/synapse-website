@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: sdk
 title: Synapse sdk
 sidebar_label: SDK
 ---

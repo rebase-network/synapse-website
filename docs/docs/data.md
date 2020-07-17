@@ -1,6 +1,6 @@
 ---
-id: doc2
-title: data structure
+id: data
+title: Data Structure
 ---
 
 ### wallets data structure

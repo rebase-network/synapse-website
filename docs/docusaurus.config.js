@@ -40,7 +40,7 @@ module.exports = {
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2/',
+              to: 'docs/data/',
             },
           ],
         },
@@ -84,7 +84,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'sdk',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
