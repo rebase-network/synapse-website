@@ -41,12 +41,27 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Feature</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <ol>
+          <li>
+            <p>导入助记词</p>
+          </li>
+          <li>
+            <p>显示账户信息</p>
+          </li>
+          <li>
+            <p>发送交易（支持anypay）</p>
+          </li>
+          <li>
+            <p>联系人管理</p>
+          </li>
+          <li>
+            <p>自定义Token管理</p>
+          </li>
+        </ol>
       </>
     ),
   },
