@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Synapse',
   tagline: 'An extension wallet and Keyper agency for Nervos CKB',
-  url: 'http://getsynapse.io',
+  url: 'http://synapse-website.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rebase-network', // Usually your GitHub org/user name.
+  projectName: 'synapse-website', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Synapse',
