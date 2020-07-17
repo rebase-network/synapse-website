@@ -8,23 +8,36 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>How to Use</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <div>
+        <h3><a></a>Installation for developer</h3>
+        <ol>
+          <li>Complete the steps to build the project above</li>
+          <li>Go to <a href="chrome://extensions"><em>chrome://extensions</em></a> in Google Chrome</li>
+          <li>With the developer mode checkbox ticked, click <strong>Load unpacked extension…</strong> and select the <em>dist</em> folder from this repo</li>
+        </ol>
+
+        <h3><a ></a>Installation for non-developer</h3>
+        <ol>
+          <li>
+            <p>Download the latest released zip file: <a href="https://github.com/rebase-network/synapse-extension/releases">https://github.com/rebase-network/synapse-extension/releases</a></p>
+          </li>
+          <li>
+            <p>Uncompress synapse-extension.zip, you will get a folder named <code>synapse-extension</code></p>
+          </li>
+          <li>
+            <p>Open Chrome <code>chrome://extensions/</code>, enable <code>Developer mode</code></p>
+          </li>
+          <li>
+            <p>Click <code>Load unpacked</code> button, select <code>synapse-extension</code> folder</p>
+          </li>
+          <li>
+            <p>You will see synapse extension icon on you tool bar</p>
+          </li>
+        </ol>
+      </div>
     ),
   },
   {
@@ -42,7 +55,7 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
