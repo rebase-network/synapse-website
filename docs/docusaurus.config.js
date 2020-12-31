@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'Synapse',
-  tagline: 'An extension wallet and Keyper agency for Nervos CKB',
-  url: 'http://synapse-website.github.io',
+  title: 'Synapse Extension',
+  tagline: 'An extension wallet for Nervos CKB.',
+  url: 'https://getsynapse.io/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'rebase-network', // Usually your GitHub org/user name.
