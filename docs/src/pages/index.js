@@ -8,60 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>How to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Multiple Types of Addresses</>,
+    imageUrl: 'img/features/features-locks.png',
     description: (
-      <div>
-        <h3><a></a>Installation for developer</h3>
-        <ol>
-          <li>Complete the steps to build the project above</li>
-          <li>Go to <a href="chrome://extensions"><em>chrome://extensions</em></a> in Google Chrome</li>
-          <li>With the developer mode checkbox ticked, click <strong>Load unpacked extension…</strong> and select the <em>dist</em> folder from this repo</li>
-        </ol>
-
-        <h3><a ></a>Installation for non-developer</h3>
-        <ol>
-          <li>
-            <p>Download the latest released zip file: <a href="https://github.com/rebase-network/synapse-extension/releases">https://github.com/rebase-network/synapse-extension/releases</a></p>
-          </li>
-          <li>
-            <p>Uncompress synapse-extension.zip, you will get a folder named <code>synapse-extension</code></p>
-          </li>
-          <li>
-            <p>Open Chrome <code>chrome://extensions/</code>, enable <code>Developer mode</code></p>
-          </li>
-          <li>
-            <p>Click <code>Load unpacked</code> button, select <code>synapse-extension</code> folder</p>
-          </li>
-          <li>
-            <p>You will see synapse extension icon on you tool bar</p>
-          </li>
-        </ol>
-      </div>
+      <>
+        Not only supports normal address, but also supports different lock scripts such as anyone can pay, which will allow you send any amount of CKB.
+      </>
     ),
   },
   {
-    title: <>Feature</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>UDT Support</>,
+    imageUrl: 'img/features/features-udt.png',
     description: (
       <>
-        <ol>
-          <li>
-            <p>导入助记词</p>
-          </li>
-          <li>
-            <p>显示账户信息</p>
-          </li>
-          <li>
-            <p>发送交易（支持anypay）</p>
-          </li>
-          <li>
-            <p>联系人管理</p>
-          </li>
-          <li>
-            <p>自定义Token管理</p>
-          </li>
-        </ol>
+        Supports manage your UDT(User Defined Token) infomation, list all your UDTs, and send any UDT.
+      </>
+    ),
+  },
+  {
+    title: <>DApps Integration with Ease</>,
+    imageUrl: 'img/features/features-dapp.png',
+    description: (
+      <>
+        Developers could integrate Synapse with their DApps easily, so that give user good experience and save them lots of development time.
       </>
     ),
   },
@@ -70,7 +39,7 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--6', styles.feature)}>
+    <div className={clsx('col col--6 text--center', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
