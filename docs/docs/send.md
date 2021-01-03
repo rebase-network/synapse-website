@@ -1,5 +1,4 @@
 ---
-id: send
 title: Send transaction
 sidebar_label: Send transaction
 ---

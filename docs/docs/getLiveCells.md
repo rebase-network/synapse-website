@@ -1,5 +1,4 @@
 ---
-id: getLiveCells
 title: Get live cells
 sidebar_label: Get live cells
 ---

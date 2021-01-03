@@ -1,5 +1,4 @@
 ---
-id: sign
 title: Sign transaction
 sidebar_label: Sign transaction
 ---

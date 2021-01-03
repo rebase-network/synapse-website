@@ -1,5 +1,4 @@
 ---
-id: signSend
 title: Sign and send transaction
 sidebar_label: Sign and send transaction
 ---

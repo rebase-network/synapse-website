@@ -1,5 +1,4 @@
 ---
-id: getAddressInfo
 title: Get address info
 sidebar_label: Get address info
 ---
