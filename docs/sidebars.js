@@ -1,5 +1,5 @@
 module.exports = {
   someSidebar: {
-    Synapse: ['sdk', 'data', 'api'],
+    'Developers Guide': ['introduction', 'getAddressInfo', 'getLiveCells', 'sign', 'signSend', 'send'],
   },
 };
