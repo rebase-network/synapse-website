@@ -3,9 +3,6 @@ title: Get live cells
 sidebar_label: Get live cells
 ---
 
-
-## Get live cells
-
 ### Method
 
 ```js

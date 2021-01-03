@@ -4,8 +4,6 @@ sidebar_label: Send transaction
 ---
 
 
-## Send tx
-
 Dapp could use `send` method to send signed tx, it will bring up a notification window with the password form. After user enter correct password, tx will be sent and return the tx hash if succeed.
 
 ### Method:

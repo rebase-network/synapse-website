@@ -4,8 +4,6 @@ sidebar_label: Sign and send transaction
 ---
 
 
-## Sign and send transaction
-
 Dapp could use `signSend` method to sign and send tx, it will bring up a notification window with the password form. After user enter correct password, `signSend` method will signed tx, then send it and return the result.
 
 ### Method:

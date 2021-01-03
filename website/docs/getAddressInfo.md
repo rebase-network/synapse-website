@@ -3,8 +3,6 @@ title: Get address info
 sidebar_label: Get address info
 ---
 
-## Get address info
-
 ### Method
 
 ```js

@@ -4,8 +4,6 @@ sidebar_label: Sign transaction
 ---
 
 
-## Sign tx
-
 Dapp could use `sign` method to sign tx with Synapse, it will bring up a notification window with the password form. After user enter correct password, `sign` method will return signed tx.
 
 ### Method:
