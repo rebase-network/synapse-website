@@ -53,7 +53,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/rebase-network/synapse-website/edit/master/docs',
+            'https://github.com/rebase-network/synapse-website/edit/master/website',
         },
         blog: {
           showReadingTime: true,
